@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<title>Demo app</title>
+
+<main></main>
+
+<script type="module">
+  import template from './helloworld.js';
+
+  const main = document.querySelector('main');
+  const update = template();
+  main.appendChild(update());
+</script>

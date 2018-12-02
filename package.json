@@ -1,0 +1,26 @@
+{
+  "name": "compile-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewp/compile-proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewp/compile-proj/issues"
+  },
+  "homepage": "https://github.com/matthewp/compile-proj#readme",
+  "dependencies": {
+    "de-indent": "^1.0.2",
+    "dentist": "^1.0.3",
+    "fs-cheerio": "^3.0.0",
+    "strip-indent": "^2.0.0"
+  }
+}
