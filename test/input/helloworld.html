@@ -1,12 +1,5 @@
-<template>
-  <div>Hello {name}!</div>
-  <input type="text" value="{name}" on-keyup="{updateName}">
-</template>
-
 <script>
 let name = 'world';
-
-function updateName(ev) {
-  name = ev.target.value;
-}
 </script>
+
+<h1>Hello {name}!</h1>
