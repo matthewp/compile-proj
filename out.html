@@ -1,0 +1,10 @@
+<button id="increment-el">Increment</button><div>Count: <strong id="count-text">0</strong></div>
+<script type="module">
+let count = 0;
+
+function increment() {
+  count += 1;
+}
+
+document.getElementById('increment-el').onclick = increment;
+</script>
